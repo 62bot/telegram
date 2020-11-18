@@ -1,0 +1,26 @@
+{
+    "ok": {
+        "status_code": 200,
+        "params": "chat_id=12345&text=this+message+will+destroy+itself+in+3...2...1...",
+        "body": {
+            "ok": true,
+            "result": {
+                "message_id": 0,
+                "from": {
+                    "id": 54321,
+                    "is_bot": true,
+                    "first_name": "62Bot",
+                    "username": "62_bot"
+                },
+                "chat": {
+                    "id": 12345,
+                    "first_name": "Billy",
+                    "last_name": "Zaelani Malik",
+                    "type": "private"
+                },
+                "date": 1605527105,
+                "text": "this message will destroy itself in 3...2...1..."
+            }
+        }
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "ok": {
+        "status_code": 200,
+        "params": "url=https://example.com",
+        "body": {
+            "ok": true,
+            "result": true,
+            "description": "Webhook was set"
+        }
+    },
+    "with_params": {
+        "status_code": 200,
+        "params": "url=https://example.com&ip_address=127.0.0.1&max_connections=100&allowed_updates=[]&drop_pending_updates=true",
+        "body": {
+            "ok": true,
+            "result": true,
+            "description": "Webhook was set"
+        }
+    },
+    "error_not_https": {
+        "status_code": 400,
+        "params": "url=http://example.com",
+        "body": {
+            "ok": false,
+            "error_code": 400,
+            "description": "Bad Request: bad webhook: HTTPS url must be provided for webhook"
+        }
+    }
+}

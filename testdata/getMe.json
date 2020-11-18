@@ -1,0 +1,25 @@
+{
+    "authorized": {
+        "status_code": 200,
+        "body": {
+            "ok": true,
+            "result": {
+                "id": 1,
+                "is_bot": true,
+                "first_name": "TestBot",
+                "username": "test_bot",
+                "can_join_groups": true,
+                "can_read_all_group_messages": true,
+                "supports_inline_queries": true
+            }
+        }
+    },
+    "unauthorized": {
+        "status_code": 401,
+        "body": {
+            "ok": false,
+            "error_code": 401,
+            "description": "Unauthorized"
+        }
+    }
+}

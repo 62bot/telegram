@@ -1,0 +1,153 @@
+{
+    "ok": {
+        "status_code": 200,
+        "body": {
+            "ok": true,
+            "result": [
+                {
+                    "update_id": 0,
+                    "message": {
+                        "message_id": 0,
+                        "from": {
+                            "id": 12345,
+                            "is_bot": false,
+                            "first_name": "Billy",
+                            "last_name": "Zaelani Malik",
+                            "language_code": "en"
+                        },
+                        "chat": {
+                            "id": 12345,
+                            "first_name": "Billy",
+                            "last_name": "Zaelani Malik",
+                            "type": "private"
+                        },
+                        "date": 1605505611,
+                        "text": "update 1"
+                    }
+                },
+                {
+                    "update_id": 1,
+                    "message": {
+                        "message_id": 1,
+                        "from": {
+                            "id": 12345,
+                            "is_bot": false,
+                            "first_name": "Billy",
+                            "last_name": "Zaelani Malik",
+                            "language_code": "en"
+                        },
+                        "chat": {
+                            "id": 12345,
+                            "first_name": "Billy",
+                            "last_name": "Zaelani Malik",
+                            "type": "private"
+                        },
+                        "date": 1605505612,
+                        "text": "update 2"
+                    }
+                },
+                {
+                    "update_id": 2,
+                    "message": {
+                        "message_id": 2,
+                        "from": {
+                            "id": 12345,
+                            "is_bot": false,
+                            "first_name": "Billy",
+                            "last_name": "Zaelani Malik",
+                            "language_code": "en"
+                        },
+                        "chat": {
+                            "id": 12345,
+                            "first_name": "Billy",
+                            "last_name": "Zaelani Malik",
+                            "type": "private"
+                        },
+                        "date": 1605505614,
+                        "text": "update 3"
+                    }
+                },
+                {
+                    "update_id": 3,
+                    "message": {
+                        "message_id": 3,
+                        "from": {
+                            "id": 12345,
+                            "is_bot": false,
+                            "first_name": "Billy",
+                            "last_name": "Zaelani Malik",
+                            "language_code": "en"
+                        },
+                        "chat": {
+                            "id": 12345,
+                            "first_name": "Billy",
+                            "last_name": "Zaelani Malik",
+                            "type": "private"
+                        },
+                        "date": 1605505618,
+                        "text": "update 4"
+                    }
+                }
+            ]
+        }
+    },
+    "with_params": {
+        "status_code": 200,
+        "params": "offset=1&limit=2&timeout=3&allowed_updates=[]",
+        "body": {
+            "ok": true,
+            "result": [
+                {
+                    "update_id": 1,
+                    "message": {
+                        "message_id": 1,
+                        "from": {
+                            "id": 12345,
+                            "is_bot": false,
+                            "first_name": "Billy",
+                            "last_name": "Zaelani Malik",
+                            "language_code": "en"
+                        },
+                        "chat": {
+                            "id": 12345,
+                            "first_name": "Billy",
+                            "last_name": "Zaelani Malik",
+                            "type": "private"
+                        },
+                        "date": 1605505612,
+                        "text": "update 2"
+                    }
+                },
+                {
+                    "update_id": 2,
+                    "message": {
+                        "message_id": 2,
+                        "from": {
+                            "id": 12345,
+                            "is_bot": false,
+                            "first_name": "Billy",
+                            "last_name": "Zaelani Malik",
+                            "language_code": "en"
+                        },
+                        "chat": {
+                            "id": 12345,
+                            "first_name": "Billy",
+                            "last_name": "Zaelani Malik",
+                            "type": "private"
+                        },
+                        "date": 1605505614,
+                        "text": "update 3"
+                    }
+                }
+            ]
+        }
+    },
+    "conflict_with_webhook": {
+        "status_code": 200,
+        "body": {
+            "ok": false,
+            "error_code": 409,
+            "description": "Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first"
+        }
+    }
+}

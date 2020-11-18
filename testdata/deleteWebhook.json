@@ -1,0 +1,11 @@
+{
+    "ok": {
+        "status_code": 200,
+        "params": "drop_pending_updates=true",
+        "body": {
+            "ok": true,
+            "result": true,
+            "description": "Webhook was deleted"
+        }
+    }
+}

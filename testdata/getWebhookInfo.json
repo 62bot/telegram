@@ -1,0 +1,15 @@
+{
+    "ok": {
+        "status_code": 200,
+        "body": {
+            "ok": true,
+            "result": {
+                "url": "https://example.com",
+                "has_custom_certificate": false,
+                "pending_update_count": 0,
+                "max_connections": 100,
+                "ip_address": "127.0.0.1"
+            }
+        }
+    }
+}
