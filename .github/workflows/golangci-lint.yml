@@ -2,8 +2,6 @@ name: golangci-lint
 on: 
   pull_request:
     branches:
-      - dev
-      - release
       - master
 jobs:
   golangci:
